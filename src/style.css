@@ -1,12 +1,15 @@
 body {
   background-color: #f9f7fe;
+  font-family: "Merriweather", serif;
 }
 .box-container {
   background: #ffffff;
   border-radius: 20px;
   box-shadow: rgba(65, 50, 100, 0.08) 0px 30px 50px 0px;
   display: block;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
   margin: 50px auto;
   max-width: 700px;
   padding: 30px;
