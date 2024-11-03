@@ -1,16 +1,48 @@
 body {
   background-color: #f9f7fe;
-  font-family: "Merriweather", serif;
+  font-family: "Lato", serif;
+  font-weight: 400;
+}
+a {
+  color: #885df1;
 }
 .box-container {
   background: #ffffff;
   border-radius: 20px;
   box-shadow: rgba(65, 50, 100, 0.08) 0px 30px 50px 0px;
   display: block;
-  font-family: "Merriweather", serif;
-  font-weight: 400;
-  font-style: normal;
   margin: 50px auto;
-  max-width: 700px;
+  max-width: 650px;
   padding: 30px;
+}
+
+.form {
+  border-bottom: 1px solid rgb(249, 247, 254);
+  display: block;
+  padding-bottom: 35px;
+}
+.search-form {
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  padding: 20px;
+  width: 80%;
+}
+
+.submit-button {
+  background-color: #885df1;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+  padding: 20px 30px;
+}
+footer {
+  border-top: 1px solid rgb(249, 247, 254);
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 15px;
+  padding-top: 35px;
+  text-align: center;
 }
