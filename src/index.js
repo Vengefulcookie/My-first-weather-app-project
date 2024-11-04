@@ -9,6 +9,8 @@ function displayWeather(response) {
   let wind = `${response.data.wind.speed}km/h`;
   let currentCity = document.querySelector("#main-heading");
   let city = response.data.city;
+  let currentIcon = document.querySelector("#weather-icon");
+  let icon = `<img src = "${response.data.condition.icon_url}" class ="weather-emoji"/>`;
   let currentDaytime = document.querySelector("#daytime");
   let date = new Date(response.data.time * 1000);
   let daytime = currentDate(date);
@@ -17,6 +19,7 @@ function displayWeather(response) {
   currentHumidity.innerHTML = humidity;
   currentWind.innerHTML = wind;
   currentCity.innerHTML = city;
+  currentIcon.innerHTML = icon;
   currentDaytime.innerHTML = daytime;
   currentTemperature.innerHTML = Math.round(temperature);
 }

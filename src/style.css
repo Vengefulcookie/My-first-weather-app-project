@@ -67,8 +67,7 @@ strong {
 }
 
 .weather-emoji {
-  bottom: 35px;
-  font-size: 45px;
+  font-size: 80px;
   left: 10px;
   position: relative;
 }
